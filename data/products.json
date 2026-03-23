@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "name": "Royal Rani Pink Banarasi Silk",
+    "description": "Exquisite handwoven Banarasi silk saree in regal rani pink with intricate gold zari jaal work and traditional paisley motifs on the pallu.",
+    "price": 4999,
+    "image": "/images/saree-pink.jpg",
+    "category": "Banarasi Silk",
+    "fabric": "Pure Silk",
+    "weave": "Kadwa Weave"
+  },
+  {
+    "id": 2,
+    "name": "Emerald Green Banarasi Silk",
+    "description": "Stunning deep emerald green Banarasi silk saree with delicate silver zari butis and ornate border featuring traditional floral patterns.",
+    "price": 4999,
+    "image": "/images/saree-green.jpg",
+    "category": "Banarasi Silk",
+    "fabric": "Pure Silk",
+    "weave": "Cutwork Weave"
+  },
+  {
+    "id": 3,
+    "name": "Mauve Rose Banarasi Tissue",
+    "description": "Elegant mauve rose Banarasi tissue silk saree with gold zari butis and richly woven border — perfect for celebrations and festivities.",
+    "price": 3500,
+    "image": "/images/saree-mauve.jpg",
+    "category": "Banarasi Tissue",
+    "fabric": "Tissue Silk",
+    "weave": "Tanchoi Weave"
+  },
+  {
+    "id": 4,
+    "name": "Royal Blue Katan Silk",
+    "description": "Majestic royal blue Katan silk Banarasi saree with all-over jangla pattern in gold zari, featuring a magnificent pallu with detailed motifs.",
+    "price": 3999,
+    "image": "/images/saree-blue.jpg",
+    "category": "Katan Silk",
+    "fabric": "Pure Katan Silk",
+    "weave": "Jangla Weave"
+  },
+  {
+    "id": 5,
+    "name": "Bridal Red Banarasi Saree",
+    "description": "Timeless bridal red Banarasi silk saree with heavy gold zari work, intricate meenakari embroidery, and classic bel-buti pattern.",
+    "price": 5499,
+    "image": "/images/saree-red.jpg",
+    "category": "Bridal Collection",
+    "fabric": "Pure Silk",
+    "weave": "Meenakari Weave"
+  },
+  {
+    "id": 6,
+    "name": "Chanderi Silk Peach",
+    "description": "Graceful peach Chanderi silk saree with subtle gold motifs and lightweight drape — ideal for daytime elegance and refined gatherings.",
+    "price": 2999,
+    "image": "/images/saree-peach.jpg",
+    "category": "Chanderi",
+    "fabric": "Chanderi Silk",
+    "weave": "Handloom"
+  }
+]

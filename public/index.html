@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>KAASHI BY LAXMI MEDHAVI | Premium Banarasi Sarees</title>
+  <meta name="description" content="KAASHI BY LAXMI MEDHAVI — Where tradition meets elegance. Premium Banarasi, Chanderi, Maheshwari, Silk and handloom sarees crafted for every occasion.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+
+  <!-- ====== NAVBAR ====== -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#hero" class="nav-logo">
+        <span class="logo-main">KAASHI</span>
+        <span class="logo-sub">By Laxmi Medhavi</span>
+      </a>
+      <div class="nav-links" id="navLinks">
+        <a href="#heritage" class="nav-link">Heritage</a>
+        <a href="#collection" class="nav-link">Collection</a>
+        <a href="#instagram" class="nav-link">Instagram</a>
+        <a href="#order" class="nav-link">Order</a>
+        <a href="#about" class="nav-link">About</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </div>
+      <div class="nav-actions">
+        <button class="cart-btn" id="cartBtn" aria-label="View Cart">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+            <path d="M6 2L3 6v14a2 2 0 002 2h14a2 2 0 002-2V6l-3-4z"/>
+            <line x1="3" y1="6" x2="21" y2="6"/>
+            <path d="M16 10a4 4 0 01-8 0"/>
+          </svg>
+          <span class="cart-count" id="cartCount">0</span>
+        </button>
+        <button class="menu-toggle" id="menuToggle" aria-label="Menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ====== HERO ====== -->
+  <section class="hero" id="hero">
+    <div class="hero-overlay"></div>
+    <div class="hero-particles" id="heroParticles"></div>
+    <div class="hero-content">
+      <div class="hero-badge animate-on-scroll">Est. Heritage Collection</div>
+      <h1 class="hero-title animate-on-scroll">
+        <span class="title-line">KAASHI</span>
+        <span class="title-accent">By Laxmi Medhavi</span>
+      </h1>
+      <p class="hero-tagline animate-on-scroll">"Where tradition meets elegance."</p>
+      <p class="hero-subtitle animate-on-scroll">Sarees and suits — crafted for every occasion.</p>
+      <div class="hero-cta animate-on-scroll">
+        <a href="#collection" class="btn btn-primary">Explore Collection</a>
+        <a href="https://www.instagram.com/kaashibylaxmimedhavi/" target="_blank" rel="noopener" class="btn btn-outline">View More on Instagram</a>
+      </div>
+    </div>
+    <div class="hero-scroll-indicator">
+      <span>Scroll</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- ====== HERITAGE ====== -->
+  <section class="heritage section" id="heritage">
+    <div class="container">
+      <div class="section-header animate-on-scroll">
+        <span class="section-tag">Our Legacy</span>
+        <h2 class="section-title">Heritage Collection</h2>
+        <p class="section-desc">Each saree tells a story of India's timeless weaving traditions — crafted by master artisans of Varanasi.</p>
+      </div>
+      <div class="heritage-gallery">
+        <div class="heritage-card heritage-card-large animate-on-scroll">
+          <div class="heritage-img-wrap">
+            <img src="/images/saree-pink.jpg" alt="Royal Rani Pink Banarasi Silk Saree" loading="lazy">
+            <div class="heritage-card-overlay">
+              <span class="heritage-tag">Kadwa Weave</span>
+              <h3>Royal Rani Pink</h3>
+              <p>Pure Banarasi Silk</p>
+            </div>
+          </div>
+        </div>
+        <div class="heritage-card animate-on-scroll">
+          <div class="heritage-img-wrap">
+            <img src="/images/saree-green.jpg" alt="Emerald Green Banarasi Silk Saree" loading="lazy">
+            <div class="heritage-card-overlay">
+              <span class="heritage-tag">Cutwork Weave</span>
+              <h3>Emerald Green</h3>
+              <p>Pure Banarasi Silk</p>
+            </div>
+          </div>
+        </div>
+        <div class="heritage-card animate-on-scroll">
+          <div class="heritage-img-wrap">
+            <img src="/images/saree-mauve.jpg" alt="Mauve Rose Banarasi Tissue Saree" loading="lazy">
+            <div class="heritage-card-overlay">
+              <span class="heritage-tag">Tanchoi Weave</span>
+              <h3>Mauve Rose</h3>
+              <p>Tissue Silk</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====== COLLECTION / PRODUCTS ====== -->
+  <section class="collection section" id="collection">
+    <div class="container">
+      <div class="section-header animate-on-scroll">
+        <span class="section-tag">Shop Now</span>
+        <h2 class="section-title">Our Collection</h2>
+        <p class="section-desc">Handcrafted Banarasi, Chanderi, Maheshwari, Silk and handloom weaves — each piece a tribute to India's diverse heritage.</p>
+      </div>
+      <div class="product-filters animate-on-scroll">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="Banarasi Silk">Banarasi Silk</button>
+        <button class="filter-btn" data-filter="Katan Silk">Katan Silk</button>
+        <button class="filter-btn" data-filter="Bridal">Bridal</button>
+        <button class="filter-btn" data-filter="Chanderi">Chanderi</button>
+      </div>
+      <div class="products-grid" id="productsGrid">
+        <!-- Products will be loaded via JS -->
+      </div>
+      <div class="collection-cta animate-on-scroll">
+        <a href="https://www.instagram.com/kaashibylaxmimedhavi/" target="_blank" rel="noopener" class="btn btn-primary btn-lg">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" style="margin-right:8px">
+            <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/>
+          </svg>
+          View More on Instagram
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====== INSTAGRAM ====== -->
+  <section class="instagram-section section" id="instagram">
+    <div class="container">
+      <div class="instagram-grid">
+        <div class="instagram-content animate-on-scroll">
+          <span class="section-tag">Follow Us</span>
+          <h2 class="section-title">Connect on Instagram</h2>
+          <p class="section-desc">Follow <strong>@kaashibylaxmimedhavi</strong> for latest collections, styling inspiration, behind-the-scenes of our weaving process, and exclusive offers.</p>
+          <a href="https://www.instagram.com/kaashibylaxmimedhavi/" target="_blank" rel="noopener" class="btn btn-instagram">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" style="margin-right:8px">
+              <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/>
+            </svg>
+            Follow @kaashibylaxmimedhavi
+          </a>
+        </div>
+        <div class="instagram-qr animate-on-scroll">
+          <div class="qr-card">
+            <img src="/images/instagram-qr.jpg" alt="Scan QR Code to follow KAASHI BY LAXMI MEDHAVI on Instagram" loading="lazy">
+            <p class="qr-label">Scan to follow us on Instagram</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====== ORDER ====== -->
+  <section class="order-section section" id="order">
+    <div class="container">
+      <div class="section-header animate-on-scroll">
+        <span class="section-tag">Place Your Order</span>
+        <h2 class="section-title">Order via WhatsApp</h2>
+        <p class="section-desc">Experience hassle-free ordering. Simply browse our collection, add items to your cart, and place your order directly through WhatsApp.</p>
+      </div>
+      <div class="order-grid">
+        <div class="order-card animate-on-scroll">
+          <div class="order-icon">
+            <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+              <path d="M21 15a2 2 0 01-2 2H7l-4 4V5a2 2 0 012-2h14a2 2 0 012 2z"/>
+            </svg>
+          </div>
+          <h3>WhatsApp Order</h3>
+          <p>Add items to your cart and click "Place Order" — your order summary will be sent directly to our WhatsApp.</p>
+          <a href="https://wa.me/919407164023?text=Hello%20KAASHI%20BY%20LAXMI%20MEDHAVI!%20I'm%20interested%20in%20your%20sarees." target="_blank" rel="noopener" class="btn btn-whatsapp">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" style="margin-right:8px">
+              <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+            </svg>
+            Chat on WhatsApp
+          </a>
+        </div>
+        <div class="order-card animate-on-scroll">
+          <div class="order-icon">
+            <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+              <rect x="1" y="4" width="22" height="16" rx="2" ry="2"/>
+              <line x1="1" y1="10" x2="23" y2="10"/>
+            </svg>
+          </div>
+          <h3>UPI Payment</h3>
+          <p>Pay securely via UPI. Send payment to our verified UPI ID after placing your order.</p>
+          <div class="upi-info">
+            <div class="upi-badge">
+              <span class="upi-label">UPI ID</span>
+              <span class="upi-id" id="upiId">laxmimedhavi@oksbi</span>
+              <button class="copy-btn" id="copyUpi" title="Copy UPI ID">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <rect x="9" y="9" width="13" height="13" rx="2" ry="2"/>
+                  <path d="M5 15H4a2 2 0 01-2-2V4a2 2 0 012-2h9a2 2 0 012 2v1"/>
+                </svg>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="order-card animate-on-scroll">
+          <div class="order-icon">
+            <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+              <path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72 12.84 12.84 0 00.7 2.81 2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45 12.84 12.84 0 002.81.7A2 2 0 0122 16.92z"/>
+            </svg>
+          </div>
+          <h3>Call / WhatsApp</h3>
+          <p>Prefer to speak with us? Call or WhatsApp us directly for personalized assistance with your order.</p>
+          <a href="tel:+919407164023" class="btn btn-outline">
+            +91 94071 64023
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====== ABOUT ====== -->
+  <section class="about-section section" id="about">
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-content animate-on-scroll">
+          <span class="section-tag">Our Story</span>
+          <h2 class="section-title">About KAASHI</h2>
+          <p>Kaashi by Laxmi Medhavi is a premium ethnic wear brand rooted in the rich textile traditions of India. We offer a refined selection of sarees and suits, featuring crafts like Banarasi, Chanderi, Maheshwari, Silk and handloom weaves — each piece a tribute to India's diverse heritage.</p>
+          <p>Our collections blend cultural richness with timeless elegance, crafted in collaboration with skilled artisans from across the country.</p>
+          <p>At Kaashi, we believe tradition should not only be preserved, but worn proudly. Through every weave, we invite you to wear heritage with grace.</p>
+        </div>
+        <div class="about-features animate-on-scroll">
+          <div class="feature">
+            <div class="feature-icon">🧵</div>
+            <h4>Handwoven</h4>
+            <p>Every piece is handcrafted by master artisans</p>
+          </div>
+          <div class="feature">
+            <div class="feature-icon">✨</div>
+            <h4>Pure Fabrics</h4>
+            <p>Only the finest silk and natural fabrics</p>
+          </div>
+          <div class="feature">
+            <div class="feature-icon">🎨</div>
+            <h4>Heritage Weaves</h4>
+            <p>Banarasi, Chanderi, Maheshwari & more</p>
+          </div>
+          <div class="feature">
+            <div class="feature-icon">📦</div>
+            <h4>Pan India Delivery</h4>
+            <p>Delivering elegance across the nation</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====== CART SIDEBAR ====== -->
+  <div class="cart-overlay" id="cartOverlay"></div>
+  <aside class="cart-sidebar" id="cartSidebar">
+    <div class="cart-header">
+      <h3>Shopping Bag</h3>
+      <button class="cart-close" id="cartClose" aria-label="Close Cart">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/>
+        </svg>
+      </button>
+    </div>
+    <div class="cart-items" id="cartItems">
+      <div class="cart-empty" id="cartEmpty">
+        <svg width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1">
+          <path d="M6 2L3 6v14a2 2 0 002 2h14a2 2 0 002-2V6l-3-4z"/>
+          <line x1="3" y1="6" x2="21" y2="6"/>
+          <path d="M16 10a4 4 0 01-8 0"/>
+        </svg>
+        <p>Your bag is empty</p>
+        <a href="#collection" class="btn btn-outline btn-sm" id="shopNowBtn">Browse Collection</a>
+      </div>
+    </div>
+    <div class="cart-footer" id="cartFooter" style="display:none;">
+      <div class="cart-total">
+        <span>Total</span>
+        <span id="cartTotal">₹0</span>
+      </div>
+      <div class="cart-checkout-fields">
+        <input type="text" id="customerName" placeholder="Your Name" class="checkout-input">
+        <input type="tel" id="customerPhone" placeholder="Your Phone Number" class="checkout-input">
+        <textarea id="customerAddress" placeholder="Your Delivery Address" class="checkout-input checkout-textarea" rows="2"></textarea>
+      </div>
+      <button class="btn btn-whatsapp btn-full" id="placeOrderBtn">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" style="margin-right:8px">
+          <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+        </svg>
+        Place Order via WhatsApp
+      </button>
+    </div>
+  </aside>
+
+  <!-- ====== FOOTER ====== -->
+  <footer class="footer" id="contact">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <h3 class="footer-logo">KAASHI</h3>
+          <p class="footer-logo-sub">By Laxmi Medhavi</p>
+          <p class="footer-tagline">"Where tradition meets elegance."</p>
+        </div>
+        <div class="footer-links">
+          <h4>Quick Links</h4>
+          <a href="#heritage">Heritage</a>
+          <a href="#collection">Collection</a>
+          <a href="#instagram">Instagram</a>
+          <a href="#order">Order</a>
+          <a href="#about">About</a>
+        </div>
+        <div class="footer-contact">
+          <h4>Get in Touch</h4>
+          <div class="contact-item">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/>
+              <circle cx="12" cy="10" r="3"/>
+            </svg>
+            <span>549 Dutt Nagar, Rajendra Nagar - CAT Road, Indore</span>
+          </div>
+          <div class="contact-item">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72 12.84 12.84 0 00.7 2.81 2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45 12.84 12.84 0 002.81.7A2 2 0 0122 16.92z"/>
+            </svg>
+            <span>WhatsApp / Mobile: <a href="tel:+919407164023">9407164023</a></span>
+          </div>
+          <div class="contact-item">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+              <polyline points="22,6 12,13 2,6"/>
+            </svg>
+            <span>Email: <a href="mailto:GeneralManager@kaashibylaxmimedhavi">GeneralManager@kaashibylaxmimedhavi</a></span>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 KAASHI BY LAXMI MEDHAVI. All rights reserved.</p>
+        <div class="footer-social">
+          <a href="https://www.instagram.com/kaashibylaxmimedhavi/" target="_blank" rel="noopener" aria-label="Instagram">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/>
+            </svg>
+          </a>
+          <a href="https://wa.me/919407164023" target="_blank" rel="noopener" aria-label="WhatsApp">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- WhatsApp Floating Button -->
+  <a href="https://wa.me/919407164023?text=Hello%20KAASHI%20BY%20LAXMI%20MEDHAVI!%20I'm%20interested%20in%20your%20sarees." target="_blank" rel="noopener" class="whatsapp-float" aria-label="Chat on WhatsApp">
+    <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor">
+      <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+    </svg>
+  </a>
+
+  <script src="/js/app.js"></script>
+</body>
+</html>
