@@ -1,0 +1,20 @@
+name: vxredund
+
+on:
+  push:
+    paths: ["vxredund/**", ".github/workflows/vxredund.yml"]
+  pull_request:
+    paths: ["vxredund/**", ".github/workflows/vxredund.yml"]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: vxredund
+    steps:
+      - uses: actions/checkout@v4
+      - name: Build and test (timing assertions enforced)
+        run: make -j2 all && make test
+      - name: Sanitizers (ASan+UBSan, TSan; timing relaxed)
+        run: make sanitize

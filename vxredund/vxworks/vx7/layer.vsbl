@@ -1,0 +1,19 @@
+/*
+ * VxWorks 7 VSB layer descriptor for vxredund (TEMPLATE)
+ *
+ * Copy vxredund/ into a layer directory of your VSB source tree (or an
+ * external layer path), with this file at the layer root. Field names
+ * follow the VxWorks 7 layer format; verify against the release you use.
+ */
+Layer VXREDUND
+    {
+    SYNOPSIS        Active/standby redundancy middleware (vxredund)
+    HELP            Deterministic 1oo2 hot-standby state replication over \
+                    VME shared memory and/or a dedicated Ethernet link.
+    VERSION         1.0.0.0
+    VENDOR          vxredund
+    FEATURE         VXREDUND
+    OPTIONAL        YES
+    DEFAULT         NO
+    LAYER_REQUIRES  CORE_KERNEL IPNET
+    }
