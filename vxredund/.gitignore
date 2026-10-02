@@ -1,0 +1,3 @@
+build/
+vxworks/vx69/obj/
+vxworks/vx69/*.out

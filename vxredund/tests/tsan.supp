@@ -1,0 +1,12 @@
+# ThreadSanitizer suppressions for `make sanitize`
+#
+# links/rdn_link_vme.c models two CPUs sharing memory across a VME
+# backplane. There are no atomic read-modify-write cycles across VME, so
+# the ring is synchronised with ordered plain stores and hardware barriers
+# (PowerPC "sync"): data words, barrier, index word. ThreadSanitizer only
+# models locks and atomics, so it reports these deliberate accesses. The
+# ring's ordering and restart behaviour are verified functionally by
+# tests/test_vme_ring.c (20000-frame threaded ordering test, restart tests).
+#
+# Nothing else is suppressed: the runtime itself must be TSan-clean.
+race:rdn_link_vme.c
